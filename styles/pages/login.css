@@ -1,0 +1,24 @@
+.login-page h2 {
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+#username {
+  margin-bottom: 2.0625rem;
+}
+
+#password {
+  margin-bottom: 7.1875rem;
+}
+
+
+.icon-label.active svg {
+  transform: translateX(-65px);
+  transition: transform 0.5s;
+}
+
+.icon-label svg {
+  transition: transform 0.5s;
+}
+
