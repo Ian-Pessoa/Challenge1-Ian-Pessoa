@@ -1,7 +1,20 @@
+.login-page h1 {
+  margin-bottom: 1.125rem;
+}
+
+.login-page p {
+  width: 21.875rem;
+  margin-bottom: 8.4375rem;
+}
+
 .login-page h2 {
   font-size: 1.875rem;
   font-weight: 400;
   margin-bottom: 2rem;
+}
+
+.input-box input::placeholder {
+  font-size: 1rem;
 }
 
 #username {
@@ -11,7 +24,6 @@
 #password {
   margin-bottom: 7.1875rem;
 }
-
 
 .icon-label.active svg {
   transform: translateX(-65px);

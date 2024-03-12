@@ -1,21 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Mulish', Arial;
-  color: #E0E0E0;
-}
-
-body {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .login-page,
 .page-image {
   flex: 1;
@@ -58,27 +40,24 @@ body {
 .login-page h1 {
   font-size: 3.75rem;
   font-weight: 400;
-  margin-bottom: 1.125rem;
 }
 
 .login-page p {
-  width: 21.875rem;
-  margin-bottom: 8.4375rem;
+  margin-bottom: 4.5625rem;
 }
 
 .input-box input {
-  background-color: transparent;
+  background-color: #26292C;
   border: 1px solid #E0E0E0;
-  padding: 1.1875rem 1.25rem;
   border-radius: 3.125rem;
-  width: 23.6875rem;
   font-size: 1rem;
   margin-right: 1.125rem;
+  padding: 1.1875rem 1.25rem;
+  width: 23.6875rem;
 }
 
 .input-box input::placeholder {
   color: #E0E0E0;
-  font-size: 1rem;
 }
 
 .input-box svg {
@@ -94,7 +73,7 @@ body {
 }
 
 .buttons button {
-  background-color: #FF2D04;
+  background: linear-gradient(to right, #FF2D04, #C13216);
   border: none;
   font-weight: 700;
   font-size: 2rem;
@@ -108,4 +87,3 @@ body {
 .buttons a {
   text-decoration: none;
 }
-
