@@ -24,16 +24,18 @@ form {
   font-size: 0.75rem;
 }
 
-.buttons button {
+.buttons a {
   margin-top: 4.875rem;
 }
 
 .buttons p,
 .login-link{
-  color: #FF2D04;
+  color: #F22E07;
+
   text-align: center;
 }
 
 .login-link {
+  text-decoration: none;
   font-weight: 700;
 }

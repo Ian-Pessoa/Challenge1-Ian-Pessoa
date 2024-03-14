@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: 'MarkPro-Regular';
+  src: url('/fonts/MARKPRO.OTF');
+}
+
+@font-face {
+  font-family: 'MarkPro-Bold';
+  src: url('/fonts/MARKPROBOLD.OTF');
+}
+
+* {
+  font-family: 'MarkPro-Regular','Roboto', Arial;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header,
+main,
+footer {
+  display: flex;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+main {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+}
+
+footer {
+  width: 100%;
+  height: 6.25rem;
+  background-color: #212221;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+
+header img {
+  margin-left: 2.5rem;
+  width: 9.375rem;
+  height: 2.671875rem;
+  margin-top: 1.5625rem;
+}
+
+.date-box {
+  text-align: center;
+}
+
+.weather-box {
+  margin-right: 2.5625rem;
+  margin-top: 1.5625rem;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main img {
+  z-index: 0;
+  margin-bottom: -200px;
+}
+
+.main-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 8.375rem;
+}
+
+.time {
+  font-family: 'MarkPro-Bold','MarkPro-Regular','Roboto', Arial;
+  font-size: 9rem;
+  width: 20.4375rem;
+  height: 9.125rem;
+}
+
+.date,
+.city {
+  font-size: 0.875rem;
+}
+
+.temperature {
+  font-family: 'MarkPro-Bold','MarkPro-Regular','Roboto', Arial;
+  font-size: 3rem;
+}
+
+.paragraph-1,
+.paragraph-3,
+.paragraph-5,
+.paragraph-7  {
+  font-family: 'MarkPro-Bold','MarkPro-Regular','Roboto', Arial;
+  color: #C12D18;
+}
+
+.paragraph-2,
+.paragraph-4,
+.paragraph-6,
+.paragraph-8 {
+  font-size: 1.5rem;
+}
+
+.paragraph-1 {
+  font-size: 2.25rem;
+}
+
+.paragraph-3,
+.paragraph-5,
+.paragraph-7 {
+  font-size: 4rem;
+}
+
+.left-side-footer-box {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+}
+
+.left-side-footer-box p{
+  margin-left: 22.5rem;
+  font-size: 0.75rem;
+  text-align: end;
+  margin-right: 1.8125rem;
+  width: 33.8125rem;
+}
+
+.stripe {
+  width: 1px;
+  height: 61px;
+  background-color: white;
+}
+
+.refresh-box {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-grow: 1;
+  margin-right: 23.0625rem;
+}
+
+.refresh-box div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.application-refresh {
+  margin-right: 2.0625rem;
+  width: 6.8125rem;
+  text-align: end;
+}
+
+.application-refresh,
+.unit-of-time {
+  font-size: 0.875rem;
+}
+
+.time-to-refresh {
+  font-family: 'MarkPro-Bold','MarkPro-Regular','Roboto', Arial;
+  font-size: 3rem;
+}
+
+.buttons-container {
+  display: flex;
+  height: 100%;
+}
+
+.continuar-navegando-box {
+  background-color: #FFFFFF;
+}
+
+.continuar-navegando-box a {
+  color: #C13216;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logout-box a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.continuar-navegando-box,
+.logout-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  padding: 0rem 1.4375rem;
+  width: 50%;
+}
