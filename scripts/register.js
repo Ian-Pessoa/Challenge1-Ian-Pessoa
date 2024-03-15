@@ -1,6 +1,7 @@
 let registrationForm = document.querySelector('.registrationForm');
 
 registrationForm.addEventListener('submit', (event) => {
+  event.preventDefault();
 
   let firstName = document.getElementById('firstname').value;
   let lastName = document.getElementById('lastname').value;
@@ -47,4 +48,5 @@ registrationForm.addEventListener('submit', (event) => {
   localStorage.setItem('user', JSON.stringify(newUser));
 
   alert('registration successful!');
+  window.location.href = 'login.html';
 })
