@@ -102,9 +102,14 @@ main img {
   font-size: 0.875rem;
 }
 
+.city {
+  text-align: center;
+}
+
 .temperature {
   font-family: 'MarkPro-Bold','MarkPro-Regular','Roboto', Arial;
   font-size: 3rem;
+  margin-left: 0.75rem;
 }
 
 .paragraph-1,
