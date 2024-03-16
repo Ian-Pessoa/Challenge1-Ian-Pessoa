@@ -185,6 +185,8 @@ main img {
 .time-to-refresh {
   font-family: 'MarkPro-Bold','MarkPro-Regular','Roboto', Arial;
   font-size: 3rem;
+  width: 3.75rem;
+  text-align: center;
 }
 
 .buttons-container {
