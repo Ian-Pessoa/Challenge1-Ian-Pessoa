@@ -1,0 +1,54 @@
+.login-page h1 {
+  margin-bottom: 1.125rem;
+}
+
+.login-page p {
+  width: 21.875rem;
+  margin-bottom: 8.4375rem;
+}
+
+.login-page h2 {
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.input-box input::placeholder {
+  font-size: 1rem;
+}
+
+.input-box input.input-invalid {
+  border-color: #E9B425;
+}
+
+.invalid-login-container {
+  width: 23.6875rem;
+}
+
+.invalid-login-message.active {
+  color: #E9B425;
+  font-weight: 700;
+  text-align: center;
+  width: 17.6875rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.9375rem;
+}
+
+#email {
+  margin-bottom: 2.0625rem;
+}
+
+#password {
+  margin-bottom: 7.1875rem;
+}
+
+.icon-label.active svg {
+  transform: translateX(-65px);
+  transition: transform 0.5s;
+}
+
+.icon-label svg {
+  transition: transform 0.5s;
+}
+
