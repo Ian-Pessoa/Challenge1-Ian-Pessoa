@@ -28,6 +28,7 @@ if(storedUser) {
 
     if(email === storedUser.email && password === storedUser.password) {
       alert('Login successful!');
+      localStorage.setItem('isLoggedIn', 'true');
       window.location.href = 'home.html';
     } else {
       emailInput.classList.add('input-invalid');
