@@ -12,6 +12,28 @@ registrationForm.addEventListener('submit', (event) => {
   let password = document.getElementById('password').value;
   let confirmPassword = document.getElementById('confirmPassword').value;
 
+  let generalRegex = /^[a-zA-Z]+(?: [a-zA-Z]+)*$/;
+
+  if(!generalRegex.test(firstName)) {
+    alert('Please enter a valid first name');
+    return;
+  }
+
+  if(!generalRegex.test(lastName)) {
+    alert('Please enter a valid last name');
+    return;
+  }
+
+  if(!generalRegex.test(country)) {
+    alert('Please enter a valid country name');
+    return;
+  }
+
+  if(!generalRegex.test(city)) {
+    alert('Please enter a valid city name');
+    return;
+  }
+
   let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(email)) {
     alert('Please enter a valid email address');
