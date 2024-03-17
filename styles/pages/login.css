@@ -17,6 +17,24 @@
   font-size: 1rem;
 }
 
+.input-box input.input-invalid {
+  border-color: #E9B425;
+}
+
+.invalid-login-container {
+  width: 23.6875rem;
+}
+
+.invalid-login-message.active {
+  color: #E9B425;
+  font-weight: 700;
+  text-align: center;
+  width: 17.6875rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.9375rem;
+}
+
 #email {
   margin-bottom: 2.0625rem;
 }

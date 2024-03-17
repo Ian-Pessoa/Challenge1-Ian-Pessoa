@@ -15,19 +15,27 @@ inputs.forEach((input) => {
 let storedUser = JSON.parse(localStorage.getItem('user'));
 
 if(storedUser) {
-  loginForm = document.querySelector('.loginForm');
+  const loginForm = document.querySelector('.loginForm');
 
   loginForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    let email = document.getElementById('email').value;
-    let password = document.getElementById('password').value;
+    const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
+
+    const email = emailInput.value;
+    const password = passwordInput.value;
 
     if(email === storedUser.email && password === storedUser.password) {
       alert('Login successful!');
       window.location.href = 'home.html';
     } else {
-      alert('Incorrect email or password');
+      emailInput.classList.add('input-invalid');
+      passwordInput.classList.add('input-invalid');
+      const invalidLoginMessage = document.querySelector('.invalid-login-message')
+      invalidLoginMessage.innerText = 'Wow, invalid username or password. Please, try again!';
+      invalidLoginMessage.classList.add('active');
+      document.getElementById('password').style.marginBottom = '1.75rem';
     }
   })
 } else {
