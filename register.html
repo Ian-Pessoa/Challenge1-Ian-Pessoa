@@ -3,9 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Register</title>
+  <link rel="stylesheet" href="styles/shared/general.css">
+  <link rel="stylesheet" href="styles/shared/login-and-register.css">
+  <link rel="stylesheet" href="styles/pages/register.css">
+
+  <link rel="icon" href="images/fav.ico">
 </head>
 <body>
-  
+  <div class="login-page">
+    <form action="#" class="registrationForm">
+
+      <div class="register-head">
+        <h1>Welcome,</h1>
+        <p>Please, register to continue</p>
+      </div>
+
+      <div class="input-group">
+        <div class="input-box">
+          <label for="firstname">first name</label>
+          <input id="firstname" type="text" name="firstname" placeholder="Your first name" required>
+        </div>
+
+        <div class="input-box">
+          <label for="lastname">last name</label>
+          <input id="lastname" type="text" name="lastname" placeholder="Your last name" required>
+        </div>
+
+        <div class="input-box">
+          <label for="birth">birth date</label>
+          <input id="birth" type="text" name="birth" placeholder="MM/DD/YYYY" required>
+        </div>
+
+        <div class="input-box">
+          <label for="country">Country</label>
+          <input id="country" type="text" name="country" placeholder="Your Country" required>
+        </div>
+
+        <div class="input-box">
+          <label for="city">City</label>
+          <input id="city" type="text" name="city" placeholder="Your City" required>
+        </div>
+
+        <div class="input-box">
+          <label for="email">e-mail</label>
+          <input id="email" type="text" name="email" placeholder="A valid e-mail here" required>
+        </div>
+
+        <div class="input-box">
+          <label for="password">password</label>
+          <input id="password" type="password" name="password" placeholder="Your password" required>
+        </div>
+
+        <div class="input-box">
+          <label for="confirmPassword">password</label>
+          <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Confirm your password" required>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button type="submit" class="button-link">Register Now</button>
+        <p>Already have an account? <a href="login.html" class="login-link">Log in here</a></p>
+      </div>
+    </form>
+  </div>
+
+  <div class="compass-image">
+    <a href="https://compass.uol/pt/home/"><img src="images/Type=Colored negative.png" alt="" class="compass-logo"></a> 
+    <img src="images/MaskGroup.png" alt="background-image" class="laptop-image">
+  </div>
+
+  <script src="scripts/register.js"></script>
 </body>
 </html>
