@@ -204,9 +204,13 @@ main img {
   text-decoration: none;
 }
 
-.logout-box a {
+.logout-button {
+  font-size: 0.75rem;
   text-decoration: none;
   color: #FFFFFF;
+  background-color: #212221;
+  border: none;
+  cursor: pointer;
 }
 
 .continuar-navegando-box,
